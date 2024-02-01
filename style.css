@@ -10,6 +10,10 @@ body {
     user-select: none;
 }
 
+h2{
+    text-align: center;
+}
+
 form {
     max-width: 400px;
     width: 100%;
