@@ -6,7 +6,7 @@ function submitForm() {
     document.getElementById('submitEmail').innerText = email;
 
     const userid = document.getElementById('userid').value;
-    document.getElementById('submitUserid').innerText = email;
+    document.getElementById('submitUserid').innerText = userid;
 
     const passwd = document.getElementById('password').value;
     document.getElementById('submitpassword').innerText = passwd;
