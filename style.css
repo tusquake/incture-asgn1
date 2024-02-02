@@ -1,6 +1,8 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #a0454546;
+    font-family:'Times New Roman', Times, serif;
+    background-image: url('images/binary-code-pattern-dark-blue-background_53876-116183.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,6 +10,8 @@ body {
     justify-content: center;
     height: 100vh;
     user-select: none;
+    font-size: 20px;
+    color: #fff;
 }
 
 h2{
@@ -15,58 +19,48 @@ h2{
 }
 
 form {
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
-    background-color: #fff;
+    background-color: #2e4d8f;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    color: #a04545;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-input,
-button {
+input{
     width: 100%;
     margin-bottom: 10px;
     padding: 10px;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 
 button {
-    background-color: #af4c4c;
-    color: #fff;
+    width: 100%;
+    margin: 10px 1px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #0e1964;
+    color: #ffffff;
     border: none;
     cursor: pointer;
+    border-radius: 30px;
 }
 
 button:hover {
-    background-color: #a04545;
+    background-color: #10204b;
 }
 
 .submit-details {
     display: none;
-    margin-top: 20px;
     max-width: 400px;
     width: 100%;
-    background-color: #fff;
+    background-color: #2e4d8f;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .submitted {
     font-weight: bold;
-    color: #a04545;
-}
-
-.confirmSection {
-    display: none;
-    margin-top: 20px;
-
-}
-
-.confirmed {
-    display: none;
-    font-weight: bold;
-    color: #4caf50;
 }
